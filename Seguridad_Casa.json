@@ -1,0 +1,1613 @@
+[
+    {
+        "id": "a6f77916e253d661",
+        "type": "tab",
+        "label": "Seguridad en Casa",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3e2562ee3ea66775",
+        "type": "group",
+        "z": "a6f77916e253d661",
+        "name": "Sistema de Alarma",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f7cf9b8d6e635cb4",
+            "e4c535b5b1c32597",
+            "6770c52bf7566b36",
+            "95175c7a054003c0"
+        ],
+        "x": 244,
+        "y": 119,
+        "w": 212,
+        "h": 262
+    },
+    {
+        "id": "7647ff739fe139cd",
+        "type": "group",
+        "z": "a6f77916e253d661",
+        "name": "Sensores PIR",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f34bc0bce228b572",
+            "8cd1f47eb82899d8",
+            "6b6a7d0ffc23bd62"
+        ],
+        "x": 244,
+        "y": 399,
+        "w": 232,
+        "h": 202
+    },
+    {
+        "id": "dbe1536ae86399c2",
+        "type": "group",
+        "z": "a6f77916e253d661",
+        "name": "Control Accesos y Ventanas",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "964cbc48bf765004",
+            "171f6188fc62ad6a",
+            "f8be23ac2a0915ec",
+            "ec65cb9b8430abfe",
+            "9fd8e5494640f18c",
+            "f647c1c724479e9b"
+        ],
+        "x": 194,
+        "y": 639,
+        "w": 312,
+        "h": 322
+    },
+    {
+        "id": "91377772d3fdaf0f",
+        "type": "ui_tab",
+        "name": "CASA INTELIGENTE",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "591e8b3163655b97",
+        "type": "ui_group",
+        "name": "BATERIA",
+        "tab": "91377772d3fdaf0f",
+        "order": 1,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "189025755301e0b9",
+        "type": "ui_group",
+        "name": "HORA",
+        "tab": "91377772d3fdaf0f",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5f4001699846da47",
+        "type": "ui_group",
+        "name": "DIA",
+        "tab": "91377772d3fdaf0f",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "181918e7c1f348f5",
+        "type": "ui_group",
+        "name": "PUERTAS",
+        "tab": "91377772d3fdaf0f",
+        "order": 6,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b873a968be6b5853",
+        "type": "ui_group",
+        "name": "SENSORES",
+        "tab": "91377772d3fdaf0f",
+        "order": 7,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e7566057a7acbf5d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6cdc483c187ffb93",
+        "type": "ui_group",
+        "name": "SISTEMA",
+        "tab": "91377772d3fdaf0f",
+        "order": 6,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8af0f64f68612996",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "ea9d25f1bb764214",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "e13be15f4f04caaf",
+        "type": "ui-page",
+        "name": "SEGURIDAD EN CASA",
+        "ui": "8af0f64f68612996",
+        "path": "/seguridad",
+        "icon": "shield",
+        "layout": "grid",
+        "theme": "ea9d25f1bb764214",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "e53ab7182e1874c3",
+        "type": "ui_group",
+        "name": "RIESGO",
+        "tab": "91377772d3fdaf0f",
+        "order": 7,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7ce22616289a1a7a",
+        "type": "ui-group",
+        "name": "ESTADO GENERAL",
+        "page": "e13be15f4f04caaf",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "63713fdcf0def494",
+        "type": "ui-group",
+        "name": "CONTROL DE ALARMA",
+        "page": "e13be15f4f04caaf",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "517996c02f969f66",
+        "type": "ui-group",
+        "name": "PUERTAS Y VENTANAS",
+        "page": "e13be15f4f04caaf",
+        "width": 6,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e42f39c8160fa1e4",
+        "type": "ui-group",
+        "name": "MOVIMIENTO",
+        "page": "e13be15f4f04caaf",
+        "width": 6,
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5ffa00971ee4c7ab",
+        "type": "ui-group",
+        "name": "ALERTAS",
+        "page": "e13be15f4f04caaf",
+        "width": 6,
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6847374e69c34d78",
+        "type": "ui-group",
+        "name": "HISTORIAL DE EVENTOS",
+        "page": "e13be15f4f04caaf",
+        "width": 6,
+        "height": 1,
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6a222c5cc68eb737",
+        "type": "ui-group",
+        "name": "RELOJ",
+        "page": "e13be15f4f04caaf",
+        "width": 6,
+        "height": 1,
+        "order": 7,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "grupo_bateria_respaldo",
+        "type": "ui-group",
+        "name": "BATERÍA",
+        "page": "e13be15f4f04caaf",
+        "width": "6",
+        "height": "1",
+        "order": 8,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "18780405a2b393e3",
+        "type": "ui-theme",
+        "name": "Neon Dashboard Theme",
+        "colors": {
+            "surface": "#0f172a",
+            "primary": "#06b6d4",
+            "bgPage": "#020617",
+            "groupBg": "#1e293b",
+            "groupOutline": "#334155"
+        }
+    },
+    {
+        "id": "280c80c3d8e1403f",
+        "type": "ui-page",
+        "name": "Dashboard Seguridad en Casa",
+        "ui": "8af0f64f68612996",
+        "path": "/dashboard",
+        "icon": "",
+        "layout": "grid",
+        "theme": "18780405a2b393e3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "aa1de706016d612f",
+        "type": "ui-group",
+        "name": "Estado General (Riesgo)",
+        "page": "280c80c3d8e1403f",
+        "width": "4",
+        "height": "7",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8505847e4f432a9e",
+        "type": "ui-group",
+        "name": "Visualización Gemelo Digital",
+        "page": "280c80c3d8e1403f",
+        "width": 8,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "1889cf75f0fbe8ea",
+        "type": "ui-group",
+        "name": "Sistema de Alarma",
+        "page": "280c80c3d8e1403f",
+        "width": 4,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": ""
+    },
+    {
+        "id": "26eefa62859a7f55",
+        "type": "ui-group",
+        "name": "Sensores PIR",
+        "page": "280c80c3d8e1403f",
+        "width": 4,
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": ""
+    },
+    {
+        "id": "ae2dd7ffa5810a2f",
+        "type": "ui-group",
+        "name": "Control Accesos y Ventanas",
+        "page": "280c80c3d8e1403f",
+        "width": 4,
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "2ccdb3527177db3f",
+        "type": "ui-group",
+        "name": " Modelo 3D Interactivo",
+        "page": "280c80c3d8e1403f",
+        "width": 12,
+        "height": 1,
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": false,
+        "groupType": "default"
+    },
+    {
+        "id": "2177cfb8ed7a86bf",
+        "type": "telegram bot",
+        "botname": "SeguridadCasaBot",
+        "usernames": "",
+        "chatids": "5209094665",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "",
+        "localbotport": "",
+        "publicbotport": "",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "414ca8d3c89fb7d7",
+        "type": "ui-template",
+        "z": "a6f77916e253d661",
+        "group": "aa1de706016d612f",
+        "page": "",
+        "ui": "",
+        "name": "Medidor de Riesgo",
+        "order": 2,
+        "width": "6",
+        "height": "6",
+        "format": "<template>\n    <div class=\"risk-container\">\n        <div class=\"risk-circle\" :style=\"{ borderColor: getRiskColor(riesgoVal) }\">\n            <span class=\"risk-value\" :style=\"{ color: getRiskColor(riesgoVal) }\">\n                {{ riesgoVal }}<span style=\"font-size:1.5rem\">%</span>\n            </span>\n        </div>\n        <div class=\"risk-label\">{{ getRiskLabel(riesgoVal) }}</div>\n    </div>\n</template>\n\n<script>\n    export default {\n        data() {\n            return { riesgoVal: 0 }\n        },\n        mounted() {\n            this._interval = setInterval(() => {\n                const val = this.msg?.payload?.risk;\n                if (val !== undefined && Number(val) !== this.riesgoVal) {\n                    this.riesgoVal = Number(val);\n                }\n            }, 500);\n        },\n        beforeUnmount() {\n            clearInterval(this._interval);\n        },\n        methods: {\n            getRiskColor(val) {\n                if (val < 30) return '#22c55e';\n                if (val < 70) return '#f59e0b';\n                return '#a32126';\n            },\n            getRiskLabel(val) {\n                if (val < 30) return 'RIESGO BAJO';\n                if (val < 70) return 'RIESGO MEDIO';\n                return 'RIESGO CRÍTICO';\n            }\n        }\n    }\n</script>\n\n<style>\n    .risk-container {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        padding: 20px 0;\n        font-family: 'Poppins', sans-serif;\n    }\n    .risk-circle {\n        width: 180px;\n        height: 180px;\n        border-radius: 50%;\n        border: 10px solid #334155;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        background: rgba(15, 23, 42, 0.5);\n        box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);\n        transition: border-color 0.5s ease;\n    }\n    .risk-value {\n        font-size: 3.8rem;\n        font-weight: 700;\n        text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);\n        transition: color 0.5s ease;\n    }\n    .risk-label {\n        margin-top: 15px;\n        font-size: 1.3rem;\n        font-weight: 600;\n        color: #94a3b8;\n        letter-spacing: 1px;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1580,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a648b5a15d6f4a6e",
+        "type": "ui-template",
+        "z": "a6f77916e253d661",
+        "group": "aa1de706016d612f",
+        "page": "",
+        "ui": "",
+        "name": "Tabla Historial",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<template>\n    <div class=\"history-container\">\n        <div class=\"header-row\"><span>HORA</span><span>EVENTO</span><span>DISPOSITIVO</span></div>\n        <div class=\"history-log\">\n            <div v-if=\"msg && msg.payload && msg.payload.history\" class=\"log-entry\"\n                v-for=\"(log, idx) in msg.payload.history\" :key=\"idx\">\n                <span class=\"time\"><span class=\"clock-icon\">⌚</span> {{ log.time }}</span><span :class=\"['event', {'alert-text': log.event.includes('Abierta') || log.event.includes('Detectado') || log.event.includes('EMERGENCIA')}]\">{{ log.event }}</span><span class=\"device\">{{ log.rawDevice }}</span>\n            </div>\n            <div v-if=\"!msg || !msg.payload || !msg.payload.history || msg.payload.history.length === 0\" class=\"empty-state\">Esperando eventos...</div>\n        </div>\n    </div>\n</template>\n<style>\n    .history-container { background: rgba(15, 23, 42, 0.5); border: 1px solid #1e293b; border-radius: 8px; font-family: 'Roboto', sans-serif; overflow: hidden; }\n    .header-row { display: grid; grid-template-columns: 120px 1fr 150px; padding: 12px 20px; background: #1e293b; color: #94a3b8; font-size: 0.85rem; font-weight: 600; }\n    .history-log { padding: 10px 20px; max-height: 427px; overflow-y: auto; }\n    .log-entry { display: grid; grid-template-columns: 120px 1fr 150px; padding: 12px 0; border-bottom: 1px solid #1e293b; color: #e2e8f0; font-size: 0.95rem; align-items: center; }\n    .time { color: #06b6d4; display: flex; font-family: monospace; }\n    .device { color: #64748b; font-size: 0.85rem; background: #1e293b; padding: 2px 8px; border-radius: 12px; text-align: center; }\n    .alert-text { color: #a32126; font-weight: 600; }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1580,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2e185734cd70ffc",
+        "type": "ui-template",
+        "z": "a6f77916e253d661",
+        "group": "8505847e4f432a9e",
+        "page": "",
+        "ui": "",
+        "name": "Gemelo Visual Completo",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<template>\n    <div class=\"glass-panel\">\n        <div class=\"digital-twin-container\" :class=\"{'alarm-flash': msg?.payload?.alarm === 'emergencia'}\">\n            <div class=\"background-3d\"\n                style=\"background-image: url('https://www.image2url.com/r2/default/images/1780719635955-a95afb5f-3972-420c-9de2-10028fef28b9.png');\">\n\n                <div v-if=\"msg?.payload?.alarm === 'emergencia'\" class=\"tag-2d tag-alarm-2d tag-center-2d\">\n                    <span class=\"tag-icon-2d\">🚨</span>\n                    <span class=\"tag-text-2d\">ALARMA<br><strong>EMERGENCIA</strong></span>\n                </div>\n\n                <div v-if=\"msg?.payload?.alarm === 'casa'\" class=\"tag-2d tag-casa-2d tag-center-2d\">\n                    <span class=\"tag-icon-2d\">🏠</span>\n                    <span class=\"tag-text-2d\">SISTEMA<br><strong>MODO CASA</strong></span>\n                </div>\n\n                <div v-if=\"msg?.payload?.alarm === 'activada'\" class=\"tag-2d tag-activada-2d tag-center-2d\">\n                    <span class=\"tag-icon-2d\">🛡️</span>\n                    <span class=\"tag-text-2d\">SISTEMA<br><strong>ACTIVADO</strong></span>\n                </div>\n\n                <div class=\"room-glow cocina-glow\" :class=\"{'active-alert': msg?.payload?.motionCocina === true}\">\n                    <div class=\"radar-wave\" v-if=\"msg?.payload?.motionCocina === true\"></div>\n                </div>\n                <div class=\"room-glow dorm1-glow\" :class=\"{'active-alert': msg?.payload?.motionDormitorio === true}\">\n                    <div class=\"radar-wave\" v-if=\"msg?.payload?.motionDormitorio === true\"></div>\n                </div>\n                <div class=\"room-glow dorm2-glow\" :class=\"{'active-alert': msg?.payload?.motionDormitorio === true}\">\n                    <div class=\"radar-wave\" v-if=\"msg?.payload?.motionDormitorio === true\"></div>\n                </div>\n                <div class=\"room-glow sala-glow\" :class=\"{'active-alert': msg?.payload?.motionSala === true}\">\n                    <div class=\"radar-wave\" v-if=\"msg?.payload?.motionSala === true\"></div>\n                </div>\n\n                <div class=\"door-wrapper door-main-wrapper\">\n                    <div class=\"neon-door\" :class=\"{'door-open-main': msg?.payload?.doorMain === true}\"></div>\n                </div>\n                <div class=\"door-wrapper door-back-wrapper\">\n                    <div class=\"neon-door\" :class=\"{'door-open-back': msg?.payload?.doorBack === true}\"></div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</template>\n\n<style>\n    .glass-panel {\n        margin: 0px !important;\n    }\n\n    .digital-twin-container {\n        width: 100%;\n        aspect-ratio: 16 / 9;\n        position: relative;\n        border-radius: 8px;\n        overflow: hidden;\n        background-color: #020617;\n        transition: all 0.3s ease;\n    }\n\n    .alarm-flash {\n        box-shadow: inset 0 0 50px rgba(163, 33, 38, 0.8);\n        animation: criticalFlash 1s infinite;\n    }\n\n    @keyframes criticalFlash {\n\n        0%,\n        100% {\n            box-shadow: inset 0 0 20px rgba(163, 33, 38, 0.5);\n        }\n\n        50% {\n            box-shadow: inset 0 0 80px rgba(163, 33, 38, 0.9);\n        }\n    }\n\n    .background-3d {\n        width: 100%;\n        height: 100%;\n        background-size: cover;\n        background-position: center;\n        position: relative;\n    }\n\n    .room-glow {\n        position: absolute;\n        width: 15%;\n        height: 25%;\n        background: rgba(163, 33, 38, 0);\n        border-radius: 50%;\n        pointer-events: none;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        transition: all 0.5s ease;\n    }\n\n    .cocina-glow {\n        top: 31%;\n        left: 32%;\n    }\n\n    .dorm1-glow {\n        top: 35%;\n        left: 58%;\n    }\n\n    .dorm2-glow {\n        top: 18%;\n        left: 44%;\n    }\n\n    .sala-glow {\n        top: 45%;\n        left: 42%;\n    }\n\n    .room-glow.active-alert {\n        background: radial-gradient(circle, rgba(163, 33, 38, 0.6) 0%, rgba(163, 33, 38, 0) 70%);\n    }\n\n    .radar-wave {\n        width: 20px;\n        height: 20px;\n        border: 2px solid #a32126;\n        border-radius: 50%;\n        animation: waveAnim 1.5s infinite linear;\n    }\n\n    @keyframes waveAnim {\n        0% {\n            transform: scale(1);\n            opacity: 1;\n        }\n\n        100% {\n            transform: scale(6);\n            opacity: 0;\n        }\n    }\n\n    /* ESTILOS DE LA PUERTA */\n    .door-wrapper {\n        position: absolute;\n        perspective: 500px;\n        z-index: 10;\n    }\n\n    .neon-door {\n        width: 100%;\n        height: 100%;\n        /* Estado Cerrado: VERDE */\n        background: rgba(34, 197, 94, 0.3);\n        border: 2px solid #22c55e;\n        box-shadow: 0 0 8px #22c55e, inset 0 0 5px #22c55e;\n        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);\n    }\n\n    .door-main-wrapper {\n        bottom: 32%;\n        right: 38%;\n        width: 30px;\n        height: 70px;\n        transform: skewY(-30deg);\n        transform-origin: left center;\n    }\n\n    /* Estado Abierto: ROJO */\n    .neon-door.door-open-main {\n        background: rgba(163, 33, 38, 0.5);\n        border-color: #a32126;\n        box-shadow: 0 0 15px #a32126;\n        transform: rotateY(-80deg);\n    }\n\n    .neon-door.door-open-back {\n        background: rgba(163, 33, 38, 0.5);\n        border-color: #a32126;\n        box-shadow: 0 0 15px #a32126;\n        transform: rotateY(80deg);\n    }\n\n    /* ESTILOS DE ETIQUETAS GLASS (Del código anterior) */\n    .tag-2d {\n        position: absolute;\n        z-index: 100;\n        display: flex;\n        align-items: center;\n        gap: 10px;\n        padding: 10px 18px;\n        border-radius: 12px;\n        font-size: 16px;\n        font-weight: 700;\n        pointer-events: none;\n        backdrop-filter: blur(12px);\n        background: rgba(255, 255, 255, 0.08);\n        border: 1px solid rgba(255, 255, 255, 0.2);\n        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);\n        transition: all 0.4s ease;\n        line-height: 1.4;\n        color: white;\n    }\n\n    .tag-icon-2d {\n        font-size: 24px;\n        flex-shrink: 0;\n    }\n\n    .tag-text-2d {\n        font-size: 15px;\n        text-align: left;\n    }\n\n    .tag-text-2d strong {\n        font-size: 17px;\n        display: block;\n    }\n\n    .tag-center-2d {\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n    }\n\n    .tag-alarm-2d {\n        background: rgba(163, 33, 38, 0.25) !important;\n        border: 1.5px solid rgba(239, 68, 68, 0.5) !important;\n        box-shadow: 0 0 35px rgba(163, 33, 38, 0.6);\n        animation: blinkBounce2D 0.5s infinite;\n    }\n\n    .tag-casa-2d {\n        background: rgba(25, 69, 124, 0.25) !important;\n        border: 1.5px solid rgba(6, 182, 212, 0.5) !important;\n        animation: blinkBounce2D 1.5s infinite;\n    }\n\n    .tag-activada-2d {\n        background: rgba(6, 182, 212, 0.2) !important;\n        border: 1.5px solid rgba(6, 182, 212, 0.5) !important;\n        animation: blinkBounce2D 1.5s infinite;\n    }\n\n    @keyframes blinkBounce2D {\n\n        0%,\n        100% {\n            opacity: 1;\n            transform: translate(-50%, -50%) scale(1);\n        }\n\n        50% {\n            opacity: 0.85;\n            transform: translate(-50%, -50%) scale(1.05);\n        }\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1580,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f7cf9b8d6e635cb4",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "3e2562ee3ea66775",
+        "group": "1889cf75f0fbe8ea",
+        "name": "Activar Alarma",
+        "label": "🚨 ACTIVAR ALARMA",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "green-neon-btn",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "activada",
+        "payloadType": "str",
+        "topic": "alarm",
+        "topicType": "str",
+        "buttonColor": "#16a34a",
+        "textColor": "#ffffff",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "c4154224b23e069c"
+            ]
+        ]
+    },
+    {
+        "id": "e4c535b5b1c32597",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "3e2562ee3ea66775",
+        "group": "1889cf75f0fbe8ea",
+        "name": "DESACTIVAR",
+        "label": "DESACTIVAR",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "btn-gemelo",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "desactivada",
+        "payloadType": "str",
+        "topic": "alarm",
+        "topicType": "str",
+        "buttonColor": "#a32126",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "c4154224b23e069c"
+            ]
+        ]
+    },
+    {
+        "id": "6770c52bf7566b36",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "3e2562ee3ea66775",
+        "group": "1889cf75f0fbe8ea",
+        "name": "MODO CASA",
+        "label": "MODO CASA",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "blue-neon-btn",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "casa",
+        "payloadType": "str",
+        "topic": "alarm",
+        "topicType": "str",
+        "buttonColor": "#19457c",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "c4154224b23e069c"
+            ]
+        ]
+    },
+    {
+        "id": "95175c7a054003c0",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "3e2562ee3ea66775",
+        "group": "1889cf75f0fbe8ea",
+        "name": "EMERGENCIA",
+        "label": "EMERGENCIA",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "red-neon-btn",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "emergencia",
+        "payloadType": "str",
+        "topic": "alarm",
+        "topicType": "str",
+        "buttonColor": "#a32126",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 340,
+        "wires": [
+            [
+                "c4154224b23e069c"
+            ]
+        ]
+    },
+    {
+        "id": "f34bc0bce228b572",
+        "type": "ui-switch",
+        "z": "a6f77916e253d661",
+        "g": "7647ff739fe139cd",
+        "name": "Sensor Dormitorios",
+        "label": "Sensor Dormitorios",
+        "group": "26eefa62859a7f55",
+        "order": 1,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "decouple": false,
+        "topic": "motionDormitorio",
+        "topicType": "str",
+        "className": "",
+        "layout": "",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "756a45765263460b"
+            ]
+        ]
+    },
+    {
+        "id": "8cd1f47eb82899d8",
+        "type": "ui-switch",
+        "z": "a6f77916e253d661",
+        "g": "7647ff739fe139cd",
+        "name": "Sensor Cocina",
+        "label": "Sensor Cocina",
+        "group": "26eefa62859a7f55",
+        "order": 2,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "decouple": false,
+        "topic": "motionCocina",
+        "topicType": "str",
+        "className": "",
+        "layout": "",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 350,
+        "y": 500,
+        "wires": [
+            [
+                "4e3f3e206c64a55e"
+            ]
+        ]
+    },
+    {
+        "id": "6b6a7d0ffc23bd62",
+        "type": "ui-switch",
+        "z": "a6f77916e253d661",
+        "g": "7647ff739fe139cd",
+        "name": "Sensor Sala",
+        "label": "Sensor Sala",
+        "group": "26eefa62859a7f55",
+        "order": 3,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "decouple": false,
+        "topic": "motionSala",
+        "topicType": "str",
+        "className": "",
+        "layout": "",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 350,
+        "y": 560,
+        "wires": [
+            [
+                "72a823e79d3c4e7c"
+            ]
+        ]
+    },
+    {
+        "id": "964cbc48bf765004",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "dbe1536ae86399c2",
+        "group": "ae2dd7ffa5810a2f",
+        "name": "ABRIR PUERTA PRINCIPAL",
+        "label": "ABRIR PUERTA PRINCIPAL",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "doorMain",
+        "topicType": "str",
+        "buttonColor": "#a32126",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 340,
+        "y": 680,
+        "wires": [
+            [
+                "c25ca43b82ea27b7"
+            ]
+        ]
+    },
+    {
+        "id": "171f6188fc62ad6a",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "dbe1536ae86399c2",
+        "group": "ae2dd7ffa5810a2f",
+        "name": "CERRAR PUERTA PRINCIPAL",
+        "label": "CERRAR PUERTA PRINCIPAL",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "doorMain",
+        "topicType": "str",
+        "buttonColor": "#19457c",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 720,
+        "wires": [
+            [
+                "c25ca43b82ea27b7"
+            ]
+        ]
+    },
+    {
+        "id": "bc46a7a8d62cefbf",
+        "type": "ui-template",
+        "z": "a6f77916e253d661",
+        "group": "2ccdb3527177db3f",
+        "page": "",
+        "ui": "",
+        "name": "Visor 3D Interactivo",
+        "order": 1,
+        "width": "12",
+        "height": "8",
+        "head": "",
+        "format": "<template>\n  <div class=\"visor-wrapper-3d\">\n    <div class=\"model-container-3d\" :class=\"{'alarm-border-3d': estado.alarm === 'emergencia'}\">\n\n      <div v-if=\"estado.alarm === 'emergencia'\" class=\"alarm-overlay-3d\"></div>\n\n      <div v-if=\"estado.alarm === 'emergencia'\" class=\"tag-3d tag-alarm-3d tag-alarm-center-3d\">\n        <span class=\"tag-icon-3d\">🚨</span>\n        <span class=\"tag-text-3d\">ALARMA<br><strong>EMERGENCIA</strong></span>\n      </div>\n\n      <div v-if=\"estado.alarm === 'casa'\" class=\"tag-3d tag-casa-3d tag-alarm-center-3d\">\n        <span class=\"tag-icon-3d\">🏠</span>\n        <span class=\"tag-text-3d\">SISTEMA<br><strong>MODO CASA</strong></span>\n      </div>\n\n      <div v-if=\"estado.alarm === 'activada'\" class=\"tag-3d tag-activada-3d tag-alarm-center-3d\">\n        <span class=\"tag-icon-3d\">🛡️</span>\n        <span class=\"tag-text-3d\">SISTEMA<br><strong>ACTIVADO</strong></span>\n      </div>\n\n      <model-viewer id=\"mi-modelo-3d\" src=\"https://raw.githubusercontent.com/xpolaca/Casa3D/main/casa.glb\"\n        camera-controls auto-rotate shadow-intensity=\"1\" style=\"width:100%; height:500px; background:#020617;\">\n\n        <button v-if=\"estado.motionSala\" class=\"Hotspot-3d\" slot=\"hotspot-sala\"\n        data-position=\"-0.1388m 0.0897m 0.1102m\" data-normal=\"0 1 0\">\n  <div class=\"room-glow-3d\"></div>\n</button>\n\n        <button v-if=\"estado.motionCocina\" class=\"Hotspot-3d\" slot=\"hotspot-cocina\"\n                data-position=\"-0.1105m 0.0601m -0.1574m\" data-normal=\"0 1 0\">\n          <div class=\"room-glow-3d\"></div>\n        </button>\n\n        <button v-if=\"estado.motionDormitorio\" class=\"Hotspot-3d\" slot=\"hotspot-dorm1\"\n                data-position=\"0.1603m 0.0601m -0.1866m\" data-normal=\"0 1 0\">\n          <div class=\"room-glow-3d\"></div>\n        </button>\n        <button v-if=\"estado.motionDormitorio\" class=\"Hotspot-3d\" slot=\"hotspot-dorm2\"\n                data-position=\"0.1772m 0.0865m 0.1509m\" data-normal=\"0 1 0\">\n          <div class=\"room-glow-3d\"></div>\n        </button>\n\n        <button v-if=\"estado.doorMain\" class=\"Hotspot-3d\" slot=\"hotspot-puerta\"\n                data-position=\"-0.0511m 0.0602m 0.2917m\" data-normal=\"0 1 0\">\n          <div class=\"HotspotAnnotation-3d active-alert-3d\">🚪 Puerta</div>\n        </button>\n\n        <button v-if=\"estado.winSala\" class=\"Hotspot-3d\" slot=\"hotspot-win-sala\"\n                data-position=\"-0.1972m 0.0601m 0.2811m\" data-normal=\"0 1 0\">\n          <div class=\"HotspotAnnotation-3d active-alert-3d\">🪟 Sala</div>\n        </button>\n\n        <button v-if=\"estado.winCocina\" class=\"Hotspot-3d\" slot=\"hotspot-win-cocina\"\n                data-position=\"-0.1555m 0.0602m -0.3064m\" data-normal=\"0 1 0\">\n          <div class=\"HotspotAnnotation-3d active-alert-3d\">🪟 Cocina</div>\n        </button>\n\n      </model-viewer>\n    </div>\n  </div>\n</template>\n\n<script>\n  export default {\n  data() {\n    return {\n      estado: {\n        motionCocina: false,\n        motionDormitorio: false,\n        motionSala:false,\n        doorMain: false,\n        doorBack: false,\n        winSala: false,\n        winCocina: false,\n        alarm: 'normal'\n      },\n      viewer: null\n    }\n  },\n\n  watch: {\n    msg(newMsg) {\n      if (newMsg?.payload) {\n        this.estado = { ...this.estado, ...newMsg.payload };\n      }\n    },\n\n    'estado.doorMain'(val) {\n      if (val) this.aplicarCamara('-0.0511m 0.0602m 0.2917m', '0deg 55deg 0.85m');\n      else this.resetCamara();\n    },\n    'estado.winSala'(val) {\n      if (val) this.aplicarCamara('-0.1972m 0.0601m 0.2811m', '-60deg 55deg 0.75m');\n      else this.resetCamara();\n    },\n    'estado.winCocina'(val) {\n      if (val) this.aplicarCamara('-0.1555m 0.0602m -0.3064m', '180deg 55deg 0.75m');\n      else this.resetCamara();\n    },\n    'estado.motionSala'(val) {\n    if (val) {\n    this.aplicarCamara(\n    '0.1603m 0.0601m -0.1866m',\n    '45deg 10deg 0.65m' // phi=10 casi desde el techo\n    );\n    } else {\n    this.resetCamara();\n    }\n    },\n    'estado.motionCocina'(val) {\n      if (val) this.aplicarCamara('-0.1105m 0.0601m -0.1574m', '0deg 10deg 0.65m');\n      else this.resetCamara();\n    },\n    'estado.motionDormitorio'(val) {\n      if (val) this.aplicarCamara('0.1603m 0.0601m -0.1866m', '45deg 10deg 0.65m');\n      else this.resetCamara();\n    },\n    'estado.alarm'(val) {\n      if (val === 'emergencia') this.aplicarCamara('0m 0.06m 0m', '0deg 8deg 1.1m');\n      else this.resetCamara();\n    }\n  },\n\n  methods: {\n    getViewer() {\n      if (!this.viewer) {\n        this.viewer = document.getElementById('mi-modelo-3d');\n      }\n      return this.viewer;\n    },\n\n    aplicarCamara(target, orbit) {\n      const v = this.getViewer();\n      if (!v) return;\n\n      const ejecutar = () => {\n        v.autoRotate = false;\n        v.cameraTarget = target;\n        v.cameraOrbit = orbit;\n        v.interpolationDecay = 50; \n      };\n\n      if (v.loaded) ejecutar();\n      else v.addEventListener('load', ejecutar, { once: true });\n    },\n\n    resetCamara() {\n      const v = this.getViewer();\n      if (!v) return;\n      v.interpolationDecay = 50;\n      v.cameraTarget = '0m 0.05m 0m';\n      v.cameraOrbit = '0deg 55deg 1.5m'; \n      v.autoRotate = true;\n    }\n  },\n\n  mounted() {\n    if (!document.querySelector('script[src*=\"model-viewer\"]')) {\n      const s = document.createElement('script');\n      s.type = 'module';\n      s.src = 'https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js';\n      document.head.appendChild(s);\n    }\n\n    this.$nextTick(() => {\n      this.viewer = document.getElementById('mi-modelo-3d');\n    });\n  }\n}\n</script>\n\n<style>\n  /* Ajuste específico para limpiar el espacio alrededor de tu visor */\n  .visor-wrapper-3d {\n    background: transparent !important;\n    border: none !important;\n    box-shadow: none !important;\n    padding: 0 !important;\n    margin: 0 !important;\n  }\n\n  /* Asegura que el contenedor del modelo no cree bordes extra */\n  .model-container-3d {\n    border: none !important;\n    box-shadow: none !important;\n  }\n\n  .panel-title-3d {\n    color: #ffffff;\n    font-size: 15px;\n    font-weight: 700;\n    letter-spacing: 1px;\n    text-transform: uppercase;\n    margin-bottom: 12px;\n    border-bottom: 1px solid rgba(25, 69, 124, 0.5);\n    padding-bottom: 10px;\n  }\n\n  .model-container-3d {\n    position: relative;\n    border-radius: 8px;\n    overflow: hidden;\n    border: 1px solid rgba(25, 69, 124, 0.5);\n    transition: all 0.4s ease;\n  }\n\n  .alarm-border-3d {\n    border-color: #a32126 !important;\n    animation: borderPulse3D 1s infinite;\n  }\n\n  @keyframes borderPulse3D {\n\n    0%,\n    100% {\n      box-shadow: 0 0 20px rgba(163, 33, 38, 0.3);\n    }\n\n    50% {\n      box-shadow: 0 0 55px rgba(163, 33, 38, 0.75);\n    }\n  }\n\n  .alarm-overlay-3d {\n    position: absolute;\n    inset: 0;\n    background: rgba(163, 33, 38, 0.18);\n    z-index: 5;\n    pointer-events: none;\n    animation: alarmPulse3D 1s infinite;\n  }\n\n  @keyframes alarmPulse3D {\n\n    0%,\n    100% {\n      opacity: 0.3;\n    }\n\n    50% {\n      opacity: 0.75;\n    }\n  }\n\n  /* ── CLASE BASE GLASS ── */\n  .tag-3d {\n    position: absolute;\n    z-index: 15;\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    padding: 10px 18px;\n    border-radius: 12px;\n    font-size: 16px;\n    font-weight: 700;\n    pointer-events: none;\n    /* Efecto Glassmorphism */\n    backdrop-filter: blur(12px);\n    background: rgba(255, 255, 255, 0.08);\n    border: 1px solid rgba(255, 255, 255, 0.2);\n    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);\n    transition: all 0.4s ease;\n    line-height: 1.4;\n    color: white;\n  }\n\n  .tag-icon-3d {\n    font-size: 24px;\n    flex-shrink: 0;\n  }\n\n  .tag-text-3d {\n    font-size: 15px;\n  }\n\n  .tag-text-3d strong {\n    font-size: 17px;\n    display: block;\n  }\n\n  /* ── ESTILOS DE COLOR GLASS ── */\n\n  /* Emergencia (Rojo Glass) */\n  .tag-alarm-3d {\n    background: rgba(163, 33, 38, 0.25) !important;\n    border: 1.5px solid rgba(239, 68, 68, 0.5) !important;\n    animation: blink3D 0.5s infinite;\n  }\n\n  /* Modo Casa (Azul Glass) */\n  .tag-casa-3d {\n    background: rgba(25, 69, 124, 0.25) !important;\n    border: 1.5px solid rgba(6, 182, 212, 0.5) !important;\n    animation: blink3D 1.5s infinite;\n  }\n\n  /* Activada (Turquesa Glass) */\n  .tag-activada-3d {\n    background: rgba(6, 182, 212, 0.2) !important;\n    border: 1.5px solid rgba(6, 182, 212, 0.5) !important;\n    animation: blink3D 1.5s infinite;\n  }\n\n  .tag-alarm-center-3d {\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    z-index: 100;\n  }\n\n  .tag-alarm-3d.tag-alarm-center-3d {\n    box-shadow: 0 0 35px rgba(163, 33, 38, 0.6);\n  }\n\n  @keyframes blink3D {\n\n    0%,\n    100% {\n      opacity: 1;\n    }\n\n    50% {\n      opacity: 0.85;\n    }\n  }\n\n  .Hotspot-3d {\n    background: transparent;\n    border: none;\n    padding: 0;\n    cursor: pointer;\n  }\n\n  .room-glow-3d {\n    position: absolute;\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    pointer-events: none;\n    transform: translate(-50%, -50%);\n    background: rgba(163, 33, 38, 0.2);\n    border: 2px solid rgba(163, 33, 38, 0.6);\n    animation: emitPulse3D 1.5s infinite ease-out;\n  }\n\n  @keyframes emitPulse3D {\n    0% {\n      transform: translate(-50%, -50%) scale(0.5);\n      opacity: 1;\n      box-shadow: 0 0 0 0 rgba(163, 33, 38, 0.7);\n    }\n\n    70% {\n      transform: translate(-50%, -50%) scale(2.5);\n      opacity: 0;\n      box-shadow: 0 0 0 20px rgba(163, 33, 38, 0);\n    }\n\n    100% {\n      transform: translate(-50%, -50%) scale(0.5);\n      opacity: 0;\n    }\n  }\n\n  .HotspotAnnotation-3d {\n    background: rgba(25, 69, 124, 0.85);\n    color: #ffffff;\n    padding: 10px 16px;\n    border-radius: 8px;\n    border: 2px solid #19457c;\n    font-size: 16px;\n    font-weight: 700;\n    pointer-events: none;\n    white-space: nowrap;\n    box-shadow: 0 4px 16px rgba(25, 69, 124, 0.3);\n  }\n\n  .active-alert-3d {\n    background: rgba(163, 33, 38, 0.95);\n    color: white;\n    border-color: #a32126;\n    font-size: 17px;\n    box-shadow: 0 4px 20px rgba(163, 33, 38, 0.5);\n  }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1570,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec65cb9b8430abfe",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "dbe1536ae86399c2",
+        "group": "ae2dd7ffa5810a2f",
+        "name": "ABRIR VENTANA SALA",
+        "label": "ABRIR VENTANA SALA",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "winSala",
+        "topicType": "str",
+        "buttonColor": "#a32126",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 340,
+        "y": 780,
+        "wires": [
+            [
+                "24bc2eb6864b690d"
+            ]
+        ]
+    },
+    {
+        "id": "9fd8e5494640f18c",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "dbe1536ae86399c2",
+        "group": "ae2dd7ffa5810a2f",
+        "name": "CERRAR VENTANA SALA",
+        "label": "CERRAR VENTANA  SALA",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "winSala",
+        "topicType": "str",
+        "buttonColor": "#19457c",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 820,
+        "wires": [
+            [
+                "24bc2eb6864b690d"
+            ]
+        ]
+    },
+    {
+        "id": "f647c1c724479e9b",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "dbe1536ae86399c2",
+        "group": "ae2dd7ffa5810a2f",
+        "name": "ABRIR VENTANA  COCINA",
+        "label": "ABRIR VENTANA  COCINA",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "winCocina",
+        "topicType": "str",
+        "buttonColor": "#a32126",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 340,
+        "y": 880,
+        "wires": [
+            [
+                "1991b3bcc0bac79d"
+            ]
+        ]
+    },
+    {
+        "id": "f8be23ac2a0915ec",
+        "type": "ui-button",
+        "z": "a6f77916e253d661",
+        "g": "dbe1536ae86399c2",
+        "group": "ae2dd7ffa5810a2f",
+        "name": "CERRAR VENTANA COCINA",
+        "label": "CERRAR VENTANA  COCINA",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "emulateClick": true,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "winCocina",
+        "topicType": "str",
+        "buttonColor": "#19457c",
+        "textColor": "white",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 920,
+        "wires": [
+            [
+                "1991b3bcc0bac79d"
+            ]
+        ]
+    },
+    {
+        "id": "c4154224b23e069c",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Alarma",
+        "rules": [
+            {
+                "t": "set",
+                "p": "homeState",
+                "pt": "global",
+                "to": "$exists($globalContext('homeState')) ? $globalContext('homeState') : {\"doorMain\":false,\"doorBack\":false,\"winSala\":false,\"winCocina\":false,\"motionSala\":false,\"motionPatio\":false,\"motionCocina\":false,\"motionDormitorio\":false,\"alarm\":\"desactivada\",\"history\":[],\"risk\":0}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.alarm",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 240,
+        "wires": [
+            [
+                "6d8afa526c37212d"
+            ]
+        ]
+    },
+    {
+        "id": "756a45765263460b",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Sensor Dormitorio",
+        "rules": [
+            {
+                "t": "set",
+                "p": "homeState",
+                "pt": "global",
+                "to": "$exists($globalContext('homeState')) ? $globalContext('homeState') : {\"doorMain\":false,\"doorBack\":false,\"winSala\":false,\"winCocina\":false,\"motionSala\":false,\"motionPatio\":false,\"motionCocina\":false,\"motionDormitorio\":false,\"alarm\":\"desactivada\",\"history\":[],\"risk\":0}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.motionDormitorio",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 440,
+        "wires": [
+            [
+                "6d8afa526c37212d"
+            ]
+        ]
+    },
+    {
+        "id": "4e3f3e206c64a55e",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Sensor Cocina",
+        "rules": [
+            {
+                "t": "set",
+                "p": "homeState",
+                "pt": "global",
+                "to": "$exists($globalContext('homeState')) ? $globalContext('homeState') : {\"doorMain\":false,\"doorBack\":false,\"winSala\":false,\"winCocina\":false,\"motionSala\":false,\"motionPatio\":false,\"motionCocina\":false,\"motionDormitorio\":false,\"alarm\":\"desactivada\",\"history\":[],\"risk\":0}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.motionCocina",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 500,
+        "wires": [
+            [
+                "6d8afa526c37212d"
+            ]
+        ]
+    },
+    {
+        "id": "72a823e79d3c4e7c",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Sensor Sala",
+        "rules": [
+            {
+                "t": "set",
+                "p": "homeState",
+                "pt": "global",
+                "to": "$exists($globalContext('homeState')) ? $globalContext('homeState') : {\"doorMain\":false,\"doorBack\":false,\"winSala\":false,\"winCocina\":false,\"motionSala\":false,\"motionPatio\":false,\"motionCocina\":false,\"motionDormitorio\":false,\"alarm\":\"desactivada\",\"history\":[],\"risk\":0}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.motionSala",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 560,
+        "wires": [
+            [
+                "6d8afa526c37212d"
+            ]
+        ]
+    },
+    {
+        "id": "c25ca43b82ea27b7",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Puerta Principal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "homeState",
+                "pt": "global",
+                "to": "$exists($globalContext('homeState')) ? $globalContext('homeState') : {\"doorMain\":false,\"doorBack\":false,\"winSala\":false,\"winCocina\":false,\"motionSala\":false,\"motionPatio\":false,\"motionCocina\":false,\"motionDormitorio\":false,\"alarm\":\"desactivada\",\"history\":[],\"risk\":0}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.doorMain",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 700,
+        "wires": [
+            [
+                "6d8afa526c37212d"
+            ]
+        ]
+    },
+    {
+        "id": "24bc2eb6864b690d",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Ventana Sala",
+        "rules": [
+            {
+                "t": "set",
+                "p": "homeState",
+                "pt": "global",
+                "to": "$exists($globalContext('homeState')) ? $globalContext('homeState') : {\"doorMain\":false,\"doorBack\":false,\"winSala\":false,\"winCocina\":false,\"motionSala\":false,\"motionPatio\":false,\"motionCocina\":false,\"motionDormitorio\":false,\"alarm\":\"desactivada\",\"history\":[],\"risk\":0}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.winSala",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 800,
+        "wires": [
+            [
+                "6d8afa526c37212d"
+            ]
+        ]
+    },
+    {
+        "id": "1991b3bcc0bac79d",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Ventana Cocina",
+        "rules": [
+            {
+                "t": "set",
+                "p": "homeState",
+                "pt": "global",
+                "to": "$exists($globalContext('homeState')) ? $globalContext('homeState') : {\"doorMain\":false,\"doorBack\":false,\"winSala\":false,\"winCocina\":false,\"motionSala\":false,\"motionPatio\":false,\"motionCocina\":false,\"motionDormitorio\":false,\"alarm\":\"desactivada\",\"history\":[],\"risk\":0}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.winCocina",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 900,
+        "wires": [
+            [
+                "6d8afa526c37212d"
+            ]
+        ]
+    },
+    {
+        "id": "6d8afa526c37212d",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change - Generar Historial",
+        "rules": [
+            {
+                "t": "set",
+                "p": "newHistory",
+                "pt": "msg",
+                "to": "(     $t := msg.topic;     $p := msg.payload;      $evento :=          $t = 'alarm' ? 'Alarma ' & $uppercase($p) :         $t = 'init' ? 'Sistema Iniciado' :         $t = 'doorMain' ? 'P. Principal ' & ($p ? 'Abierta' : 'Cerrada') :         $t = 'doorBack' ? 'P. Trasera ' & ($p ? 'Abierta' : 'Cerrada') :         $t = 'winSala' ? 'Ventana Sala ' & ($p ? 'Abierta' : 'Cerrada') :         $t = 'winCocina' ? 'Ventana Cocina ' & ($p ? 'Abierta' : 'Cerrada') :         $t = 'motionCocina' ? 'Movimiento Cocina ' & ($p ? 'Detectado' : 'Normal') :         $t = 'motionDormitorio' ? 'Movimiento Dorm. ' & ($p ? 'Detectado' : 'Normal') :         $t = 'motionSala' ? 'Movimiento Sala ' & ($p ? 'Detectado' : 'Normal') :         'Estado Actualizado';      $dispositivo :=          $t = 'alarm' ? 'Panel Central' :         $t = 'init' ? 'Controlador' :         $contains($t, 'door') ? 'Cerradura' :         $contains($t, 'win') ? 'Magnético' :         $contains($t, 'motion') ? 'Sensor PIR' :         'Sistema';      {         \"time\": $fromMillis($millis(), '[H01]:[m01]:[s01]', '-0500'),         \"event\": $evento,         \"rawDevice\": $dispositivo     } )",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.history",
+                "pt": "global",
+                "to": "$append([msg.newHistory], $exists($globalContext('homeState').history) ? $globalContext('homeState').history[[0..29]] : [])",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 620,
+        "wires": [
+            [
+                "f6ab6f8d936b7348"
+            ]
+        ]
+    },
+    {
+        "id": "f6ab6f8d936b7348",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Change – Calcular Riesgo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext('homeState')",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.risk",
+                "pt": "msg",
+                "to": "$min([\n  ($globalContext('homeState').doorMain = true ? 20 : 0) +\n  ($globalContext('homeState').doorBack = true ? 20 : 0) +\n  ($globalContext('homeState').winSala = true ? 10 : 0) +\n  ($globalContext('homeState').winCocina = true ? 10 : 0) +\n  ($globalContext('homeState').motionSala = true ? 15 : 0) +\n  ($globalContext('homeState').motionPatio = true ? 15 : 0) +\n  ($globalContext('homeState').motionCocina = true ? 15 : 0) +\n  ($globalContext('homeState').motionDormitorio = true ? 15 : 0) +\n  ($globalContext('homeState').alarm = 'activada' ? 10 : 0) +\n  ($globalContext('homeState').alarm = 'emergencia' ? 100 : 0)\n, 100])",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "homeState.risk",
+                "pt": "global",
+                "to": "payload.risk",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 620,
+        "wires": [
+            [
+                "bc46a7a8d62cefbf",
+                "d2e185734cd70ffc",
+                "a648b5a15d6f4a6e",
+                "31021ff8eb253393",
+                "580eb393666a2e32"
+            ]
+        ]
+    },
+    {
+        "id": "580eb393666a2e32",
+        "type": "function",
+        "z": "a6f77916e253d661",
+        "name": "Formatear Mensaje Telegram",
+        "func": "const s = msg.payload;\n\nconst riesgo = s.risk || 0;\nlet riesgoEmoji = '🟢';\nlet riesgoTexto = 'BAJO';\nif (riesgo >= 70) { riesgoEmoji = '🔴'; riesgoTexto = 'CRÍTICO'; }\nelse if (riesgo >= 30) { riesgoEmoji = '🟡'; riesgoTexto = 'MEDIO'; }\n\nconst alarmStates = {\n    'activada': '🛡️ ACTIVADA',\n    'desactivada': '⚪ DESACTIVADA',\n    'casa': '🏠 MODO CASA',\n    'emergencia': '🚨 EMERGENCIA'\n};\nconst alarmText = alarmStates[s.alarm] || s.alarm;\n\nconst bar = (val) => {\n    const filled = Math.round(val / 10);\n    return '█'.repeat(filled) + '░'.repeat(10 - filled) + ` ${val}%`;\n};\n\nconst bool = (v) => v ? '🔴 ABIERTA' : '🟢 CERRADA';\nconst motion = (v) => v ? '🔴 DETECTADO' : '🟢 Normal';\n\nconst texto = [\n    `🏡 *CASA SEGURA — REPORTE*`,\n    `━━━━━━━━━━━━━━━━━━`,\n    ``,\n    `${riesgoEmoji} *RIESGO: ${riesgoTexto}*`,\n    `\\`${bar(riesgo)}\\``,\n    ``,\n    `🔔 *Alarma:* ${alarmText}`,\n    ``,\n    `🚪 *Accesos*`,\n    `  • Puerta Principal: ${bool(s.doorMain)}`,\n    `  • Puerta Trasera:   ${bool(s.doorBack)}`,\n    `  • Ventana Sala:     ${bool(s.winSala)}`,\n    `  • Ventana Cocina:   ${bool(s.winCocina)}`,\n    ``,\n    `🏃 *Sensores PIR*`,\n    `  • Sala:       ${motion(s.motionSala)}`,\n    `  • Cocina:     ${motion(s.motionCocina)}`,\n    `  • Dormitorio: ${motion(s.motionDormitorio)}`,\n    ``,\n    `━━━━━━━━━━━━━━━━━━`,\n    `🕐 ${new Date().toLocaleString('es-EC', { timeZone: 'America/Guayaquil' })}`\n].join('\\n');\n\nmsg.payload = {\n    chatId: '5209094665',\n    type: 'message',\n    content: texto,\n    options: { parse_mode: 'Markdown' }\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 960,
+        "wires": [
+            [
+                "18ec4ae56b50f7b5"
+            ]
+        ]
+    },
+    {
+        "id": "0f1cfc83b0edb5e1",
+        "type": "delay",
+        "z": "a6f77916e253d661",
+        "name": "Throttle 10s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "10",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 960,
+        "wires": [
+            [
+                "580eb393666a2e32"
+            ]
+        ]
+    },
+    {
+        "id": "d9b0ccd250bc561c",
+        "type": "debug",
+        "z": "a6f77916e253d661",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1580,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "31021ff8eb253393",
+        "type": "change",
+        "z": "a6f77916e253d661",
+        "name": "Datos Riesgo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.ts",
+                "pt": "msg",
+                "to": "$millis()",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1320,
+        "y": 500,
+        "wires": [
+            [
+                "414ca8d3c89fb7d7"
+            ]
+        ]
+    },
+    {
+        "id": "18ec4ae56b50f7b5",
+        "type": "telegram sender",
+        "z": "a6f77916e253d661",
+        "name": "Enviar a Telegram",
+        "bot": "2177cfb8ed7a86bf",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1390,
+        "y": 960,
+        "wires": [
+            [
+                "d9b0ccd250bc561c"
+            ]
+        ]
+    },
+    {
+        "id": "24ef1f770e8e943c",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-telegrambot": "17.4.12"
+        }
+    }
+]
