@@ -564,7 +564,7 @@
         "type": "telegram bot",
         "botname": "SeguridadCasaBot",
         "usernames": "",
-        "chatids": "5209094665",
+        "chatids": "YOUR_TELEGRAM_CHAT_ID",
         "baseapiurl": "",
         "testenvironment": false,
         "updatemode": "polling",
